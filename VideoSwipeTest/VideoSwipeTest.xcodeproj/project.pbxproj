@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A47EB0816276DC0004887FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A47EB0716276DC0004887FF /* UIKit.framework */; };
+		0A47EB0A16276DC0004887FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A47EB0916276DC0004887FF /* Foundation.framework */; };
+		0A47EB0C16276DC0004887FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A47EB0B16276DC0004887FF /* CoreGraphics.framework */; };
+		0A47EB1216276DC0004887FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A47EB1016276DC0004887FF /* InfoPlist.strings */; };
+		0A47EB1416276DC0004887FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A47EB1316276DC0004887FF /* main.m */; };
+		0A47EB1816276DC0004887FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A47EB1716276DC0004887FF /* AppDelegate.m */; };
+		0A47EB2016276F8E004887FF /* VideoSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A47EB1F16276F8E004887FF /* VideoSliderViewController.m */; };
+		0A47EB26162789A2004887FF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A47EB25162789A2004887FF /* AVFoundation.framework */; };
+		0A47EB2E16278ACA004887FF /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A47EB2D16278ACA004887FF /* Video.m */; };
+		0A47EB311627950B004887FF /* ContentURLGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A47EB301627950B004887FF /* ContentURLGetter.m */; };
+		0A47EB3516279A3B004887FF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A47EB3416279A3B004887FF /* QuartzCore.framework */; };
+		0AF46689162C960400FB9C3A /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF46688162C960400FB9C3A /* VideoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A47EB0316276DC0004887FF /* VideoSwipeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoSwipeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A47EB0716276DC0004887FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A47EB0916276DC0004887FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A47EB0B16276DC0004887FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A47EB0F16276DC0004887FF /* VideoSwipeTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoSwipeTest-Info.plist"; sourceTree = "<group>"; };
+		0A47EB1116276DC0004887FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A47EB1316276DC0004887FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A47EB1516276DC0004887FF /* VideoSwipeTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoSwipeTest-Prefix.pch"; sourceTree = "<group>"; };
+		0A47EB1616276DC0004887FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A47EB1716276DC0004887FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A47EB1E16276F8E004887FF /* VideoSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoSliderViewController.h; sourceTree = "<group>"; };
+		0A47EB1F16276F8E004887FF /* VideoSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoSliderViewController.m; sourceTree = "<group>"; };
+		0A47EB25162789A2004887FF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0A47EB2C16278ACA004887FF /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		0A47EB2D16278ACA004887FF /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		0A47EB2F1627950B004887FF /* ContentURLGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentURLGetter.h; path = ../ContentURLGetter.h; sourceTree = "<group>"; };
+		0A47EB301627950B004887FF /* ContentURLGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContentURLGetter.m; path = ../ContentURLGetter.m; sourceTree = "<group>"; };
+		0A47EB3416279A3B004887FF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0AF46687162C960400FB9C3A /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		0AF46688162C960400FB9C3A /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A47EB0016276DC0004887FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A47EB3516279A3B004887FF /* QuartzCore.framework in Frameworks */,
+				0A47EB26162789A2004887FF /* AVFoundation.framework in Frameworks */,
+				0A47EB0816276DC0004887FF /* UIKit.framework in Frameworks */,
+				0A47EB0A16276DC0004887FF /* Foundation.framework in Frameworks */,
+				0A47EB0C16276DC0004887FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A47EAF816276DBF004887FF = {
+			isa = PBXGroup;
+			children = (
+				0A47EB0D16276DC0004887FF /* VideoSwipeTest */,
+				0A47EB0616276DC0004887FF /* Frameworks */,
+				0A47EB0416276DC0004887FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A47EB0416276DC0004887FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A47EB0316276DC0004887FF /* VideoSwipeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A47EB0616276DC0004887FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A47EB3416279A3B004887FF /* QuartzCore.framework */,
+				0A47EB25162789A2004887FF /* AVFoundation.framework */,
+				0A47EB0716276DC0004887FF /* UIKit.framework */,
+				0A47EB0916276DC0004887FF /* Foundation.framework */,
+				0A47EB0B16276DC0004887FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A47EB0D16276DC0004887FF /* VideoSwipeTest */ = {
+			isa = PBXGroup;
+			children = (
+				0A47EB2F1627950B004887FF /* ContentURLGetter.h */,
+				0A47EB301627950B004887FF /* ContentURLGetter.m */,
+				0A47EB1616276DC0004887FF /* AppDelegate.h */,
+				0A47EB1716276DC0004887FF /* AppDelegate.m */,
+				0A47EB0E16276DC0004887FF /* Supporting Files */,
+				0A47EB1E16276F8E004887FF /* VideoSliderViewController.h */,
+				0A47EB1F16276F8E004887FF /* VideoSliderViewController.m */,
+				0A47EB2C16278ACA004887FF /* Video.h */,
+				0A47EB2D16278ACA004887FF /* Video.m */,
+				0AF46687162C960400FB9C3A /* VideoViewController.h */,
+				0AF46688162C960400FB9C3A /* VideoViewController.m */,
+			);
+			path = VideoSwipeTest;
+			sourceTree = "<group>";
+		};
+		0A47EB0E16276DC0004887FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A47EB0F16276DC0004887FF /* VideoSwipeTest-Info.plist */,
+				0A47EB1016276DC0004887FF /* InfoPlist.strings */,
+				0A47EB1316276DC0004887FF /* main.m */,
+				0A47EB1516276DC0004887FF /* VideoSwipeTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A47EB0216276DC0004887FF /* VideoSwipeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A47EB1B16276DC0004887FF /* Build configuration list for PBXNativeTarget "VideoSwipeTest" */;
+			buildPhases = (
+				0A47EAFF16276DC0004887FF /* Sources */,
+				0A47EB0016276DC0004887FF /* Frameworks */,
+				0A47EB0116276DC0004887FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoSwipeTest;
+			productName = VideoSwipeTest;
+			productReference = 0A47EB0316276DC0004887FF /* VideoSwipeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A47EAFA16276DBF004887FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Shelby.tv;
+			};
+			buildConfigurationList = 0A47EAFD16276DBF004887FF /* Build configuration list for PBXProject "VideoSwipeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A47EAF816276DBF004887FF;
+			productRefGroup = 0A47EB0416276DC0004887FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A47EB0216276DC0004887FF /* VideoSwipeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A47EB0116276DC0004887FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A47EB1216276DC0004887FF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A47EAFF16276DC0004887FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A47EB1416276DC0004887FF /* main.m in Sources */,
+				0A47EB1816276DC0004887FF /* AppDelegate.m in Sources */,
+				0A47EB2016276F8E004887FF /* VideoSliderViewController.m in Sources */,
+				0A47EB2E16278ACA004887FF /* Video.m in Sources */,
+				0A47EB311627950B004887FF /* ContentURLGetter.m in Sources */,
+				0AF46689162C960400FB9C3A /* VideoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A47EB1016276DC0004887FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A47EB1116276DC0004887FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A47EB1916276DC0004887FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mark Johnson (74ZK87E24M)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B85AD4CD-47FF-4E15-AAF2-AEFD58FD075E";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0A47EB1A16276DC0004887FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mark Johnson (74ZK87E24M)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B85AD4CD-47FF-4E15-AAF2-AEFD58FD075E";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A47EB1C16276DC0004887FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoSwipeTest/VideoSwipeTest-Prefix.pch";
+				INFOPLIST_FILE = "VideoSwipeTest/VideoSwipeTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A47EB1D16276DC0004887FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoSwipeTest/VideoSwipeTest-Prefix.pch";
+				INFOPLIST_FILE = "VideoSwipeTest/VideoSwipeTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A47EAFD16276DBF004887FF /* Build configuration list for PBXProject "VideoSwipeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A47EB1916276DC0004887FF /* Debug */,
+				0A47EB1A16276DC0004887FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A47EB1B16276DC0004887FF /* Build configuration list for PBXNativeTarget "VideoSwipeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A47EB1C16276DC0004887FF /* Debug */,
+				0A47EB1D16276DC0004887FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A47EAFA16276DBF004887FF /* Project object */;
+}
